@@ -1,0 +1,21 @@
+.App {
+  text-align: center;
+}
+
+.navbar-brand {
+  text-emphasis-color: white;
+}
+
+/* this is what fixed the image stretching problem */
+img {
+  max-width: 100%;
+  object-fit: cover;
+}
+
+/* .cover{
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 100%;
+} */
