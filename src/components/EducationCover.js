@@ -2,12 +2,12 @@ import React from 'react'
 import {Carousel, Row, Col} from 'react-bootstrap'
 import educover from '../images/educover.jpg'
 import 'bootstrap/dist/css/bootstrap.css';
-import '../EduCover.css'
+import '../styles/EducationCover.css'
 import 'animate.css/animate.css'
 
-function EduCover() {
+function EducationCover() {
     return (
-        <div className="background">
+        <div className="cover">
             Education things 
             {/* <Row>
                 <Col>   <img src={educover} alt="uottawa" className="img"/>  </Col>
@@ -29,4 +29,4 @@ function EduCover() {
     )
 }
 
-export default EduCover
+export default EducationCover

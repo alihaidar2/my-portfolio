@@ -1,3 +1,17 @@
+.cover {
+    max-width: 100%;
+    object-fit: cover;
+    background-color: firebrick;
+    display: flex;
+    height: auto;
+    justify-content: center;
+    
+}
+
+
+
+
+
 .top {
     display: flex;
     height: 40%;
@@ -18,17 +32,4 @@
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-.img {
-    border-radius: 50%;
-}
-
-.background {
-    background-color: firebrick;
-    display: flex;
-    /* text-align: center; */
-    justify-content: center;
-    align-items: center;
-    height: 400px;
 }
