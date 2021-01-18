@@ -1,27 +1,5 @@
-.homepage > .experience {
-    height: 50%;
-}
-
-
-.experience {
-    height: 33%;
-    background-color: indianred;
-}
-
-.experience > img {
-    height: 100%;
-    max-width: 100%;
-    object-fit: contain; 
-}
-
-.education {
-    height: 33%;
-    background-color: firebrick
-
-}
-
 .carousel-item > img {
     max-width: 100%;
-    object-fit: contain; /* this is so it doesnt cut the pic when resizing*/
+    object-fit: contain; /* this is so it doesnt cut the pic when resizing */
 }
 

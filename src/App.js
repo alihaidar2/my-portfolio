@@ -1,10 +1,8 @@
 import React from 'react'
 import logo from './images/h-logo-2.png';
 import Homepage from './pages/Homepage';
-import Timeline from './components/Timeline'
-// import ali from "/Users/alihaidar/Projects/my-portfolio/src/images/ali.jpg"
 
-import {/*Container,*/ Navbar, Nav} from 'react-bootstrap'
+import {Navbar, Nav} from 'react-bootstrap'
 import { BrowserRouter as Router, /*Route,*/ Link} from 'react-router-dom'
 
 import './styles/App.css';
@@ -21,7 +19,7 @@ class App extends React.Component {
   render() {
     return (
       <Router>
-      <div fluid>
+      <div fluid className="background">
         <Navbar bg="dark" variant="dark" expand="lg">
           <Navbar.Brand className="navbar-brand" aria-setsize={45}> 
             <img src={logo} alt="logo" width={50} padding={100}/>
@@ -36,8 +34,8 @@ class App extends React.Component {
             </Nav>
           </Navbar.Collapse>
         </Navbar>
-         {/* <Homepage /> */}
-        <Timeline />
+        <Homepage />
+        
         
         {/* <Footer /> */}
         
