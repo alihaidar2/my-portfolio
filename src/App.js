@@ -1,6 +1,7 @@
 import React from 'react'
 import logo from './images/h-logo-2.png';
 import Homepage from './pages/Homepage';
+import Timeline from './components/Timeline'
 // import ali from "/Users/alihaidar/Projects/my-portfolio/src/images/ali.jpg"
 
 import {/*Container,*/ Navbar, Nav} from 'react-bootstrap'
@@ -35,8 +36,8 @@ class App extends React.Component {
             </Nav>
           </Navbar.Collapse>
         </Navbar>
-
-        <Homepage />
+         {/* <Homepage /> */}
+        <Timeline />
         
         {/* <Footer /> */}
         
