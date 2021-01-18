@@ -1,0 +1,28 @@
+{
+   "classes":[
+      {
+         "course_code":"ITI1121",
+         "course_name":"Introduction to Java Programming"
+      },
+      {
+         "course_code":"CSI2110",
+         "course_name":"Data Structures and Algorithms"
+      },
+      {
+         "course_code":"CSI2132",
+         "course_name":"Databases I"
+      },
+      {
+         "course_code":"CSI3131",
+         "course_name":"Operating Systems"
+      },
+      {
+         "course_code":"CSI4142",
+         "course_name":"Fundamentals of Data Science"
+      },
+      {
+         "course_code":"SEG2105",
+         "course_name":"Introduction to Software Engineering"
+      }
+   ]
+}

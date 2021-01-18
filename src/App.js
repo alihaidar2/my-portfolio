@@ -1,10 +1,10 @@
 import React from 'react'
 import logo from './images/h-logo-2.png';
 import Homepage from './pages/Homepage';
-import ali from "/Users/alihaidar/Projects/my-portfolio/src/images/ali.jpg"
+// import ali from "/Users/alihaidar/Projects/my-portfolio/src/images/ali.jpg"
 
-import {Container, Navbar, Nav} from 'react-bootstrap'
-import { BrowserRouter as Router, Route, Link} from 'react-router-dom'
+import {/*Container,*/ Navbar, Nav} from 'react-bootstrap'
+import { BrowserRouter as Router, /*Route,*/ Link} from 'react-router-dom'
 
 import './styles/App.css';
 import 'bootstrap/dist/css/bootstrap.css';
@@ -36,10 +36,7 @@ class App extends React.Component {
           </Navbar.Collapse>
         </Navbar>
 
-        <div className="outline">
-          <Homepage />
-        </div>
-        
+        <Homepage />
         
         {/* <Footer /> */}
         

@@ -5,7 +5,7 @@ import '../styles/Cover.css'
 
 function Cover() {
     return (
-        <img className="cover" src={ali} alt="me"/>
+        <img src={ali} alt="me"/>
     );
 }
 export default Cover

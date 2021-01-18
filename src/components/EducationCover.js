@@ -1,6 +1,6 @@
 import React from 'react'
-import {Carousel, Row, Col} from 'react-bootstrap'
-import educover from '../images/educover.jpg'
+// import {Carousel, Row, Col} from 'react-bootstrap'
+// import educover from '../images/educover.jpg'
 import 'bootstrap/dist/css/bootstrap.css';
 import '../styles/EducationCover.css'
 import 'animate.css/animate.css'
