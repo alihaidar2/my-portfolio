@@ -1,9 +1,10 @@
 import React from 'react'
 import {VerticalTimeline, VerticalTimelineElement} from 'react-vertical-timeline-component';
-import gradcap from "/Users/alihaidar/Projects/my-portfolio/src/images/grad-cap.png";
-import project from "/Users/alihaidar/Projects/my-portfolio/src/images/project.png"
-import volunteer from "/Users/alihaidar/Projects/my-portfolio/src/images/volunteer.png"
 
+import WorkIcon from '@material-ui/icons/Work';
+import PersonOutlineIcon from '@material-ui/icons/PersonOutline';
+import SchoolIcon from '@material-ui/icons/School';
+import LaptopIcon from '@material-ui/icons/Laptop';
 import logo from "/Users/alihaidar/Projects/my-portfolio/src/logo.svg"
 
 import 'react-vertical-timeline-component/style.min.css';
@@ -14,30 +15,32 @@ function Timeline() {
     return (
 
         <VerticalTimeline>
-
+            
+            {/* uOttawa */}
             <VerticalTimelineElement
                 className="vertical-timeline-element--work"
                 contentStyle={{ background: 'rgb(128,0,32)', color: '#fff' }}
                 contentArrowStyle={{ borderRight: '7px solid  rgb(128,0,32)' }}
                 date="September 2015"
                 iconStyle={{ background: 'rgb(128,0,32)', color: '#fff' }}
-                // icon={<WorkIcon />}
+                icon={<SchoolIcon />}
                 
             >
                 <h3 className="vertical-timeline-element-title">Started at uOttawa</h3>
                 <h4 className="vertical-timeline-element-subtitle">Ottawa, ON</h4>
-                {/* <img src={logo} alt="logo"/> */}
                 <p>
-                Moved to Ottawa to begin my bachelor's in Computer Engineering
+                    Moved to Ottawa to begin my bachelor's in Computer Engineering
                 </p>
             </VerticalTimelineElement>
 
+            {/* Python */}
             <VerticalTimelineElement
                 className="vertical-timeline-element--work"
                 contentStyle={{ background: '#D1B000', color: '#fff' }}
                 contentArrowStyle={{ borderRight: '7px solid #D1B000' }}
                 date="November 2016"
                 iconStyle={{ background: '#D1B000', color: '#fff' }}
+                icon={<PersonOutlineIcon />}
                 
             >
                 <h3 className="vertical-timeline-element-title"> Python Hackathon </h3>
@@ -48,12 +51,14 @@ function Timeline() {
                 </p>
             </VerticalTimelineElement>
             
+            {/* CUSEC */}
             <VerticalTimelineElement
                 className="vertical-timeline-element--work"
                 date="January 2018"
                 iconStyle={{ background: '#D1B000', color: '#fff' }}
                 contentStyle={{ background: '#D1B000', color: '#fff' }}
                 contentArrowStyle={{ borderRight: '7px solid  #D1B000' }}
+                icon={<PersonOutlineIcon />}
                 
             >
                 <h3 className="vertical-timeline-element-title">Canadian University Software Engineering Conference</h3>
@@ -64,13 +69,15 @@ function Timeline() {
                     such as Unity and RBC.
                 </p>
             </VerticalTimelineElement>
-
+            
+            {/* uOttaHack */}
             <VerticalTimelineElement
                 className="vertical-timeline-element--work"
                 date="February 2019"
                 iconStyle={{ background: '#D1B000', color: '#fff' }}
                 contentStyle={{ background: '#D1B000', color: '#fff' }}
                 contentArrowStyle={{ borderRight: '7px solid  #D1B000' }}
+                icon={<PersonOutlineIcon />}
                 
             >
                 <h3 className="vertical-timeline-element-title">uOttaHack Volunteer</h3>
@@ -80,12 +87,14 @@ function Timeline() {
                 </p>
             </VerticalTimelineElement>
 
+            {/* DND */}
             <VerticalTimelineElement
                 className="vertical-timeline-element--work"
                 date="February 2019"
                 iconStyle={{ background: 'rgb(128,0,32)', color: '#fff' }}
                 contentStyle={{ background: 'rgb(128,0,32)', color: '#fff' }}
-                contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
+                contentArrowStyle={{ borderRight: '7px solid  rgb(128,0,32)' }}
+                icon={<WorkIcon />}
                 
             >
                 <h3 className="vertical-timeline-element-title"> Department of National Defence </h3>
@@ -95,12 +104,14 @@ function Timeline() {
                 </p>
             </VerticalTimelineElement>
 
+            {/* CRIME DATA MART */}
             <VerticalTimelineElement
                 className="vertical-timeline-element--work"
                 date="Fall 2019"
                 iconStyle={{ background: '#004E5D', color: '#fff' }}
                 contentStyle={{ background: '#004E5D', color: '#fff' }}
                 contentArrowStyle={{ borderRight: '7px solid #004E5D' }}
+                icon={<LaptopIcon />}
                 
             >
                 <h3 className="vertical-timeline-element-title"> Crime Data Mart </h3>
@@ -111,12 +122,14 @@ function Timeline() {
                 </p>
             </VerticalTimelineElement> 
 
+            {/* Competition Leaderboard */}
             <VerticalTimelineElement
                 className="vertical-timeline-element--work"
                 date="Jan - April 2020"
                 iconStyle={{ background: '#004E5D', color: '#fff' }}
                 contentStyle={{ background: '#004E5D', color: '#fff' }}
                 contentArrowStyle={{ borderRight: '7px solid #004E5D' }}
+                icon={<LaptopIcon />}
                 
             >
                 <h3 className="vertical-timeline-element-title"> Competition Leaderboard </h3>
@@ -127,13 +140,15 @@ function Timeline() {
                 </p>
             </VerticalTimelineElement>       
         
+            {/* Grad uOttawa */}
             <VerticalTimelineElement
                 className="vertical-timeline-element--work"
                 date="September 2020"
                 iconStyle={{ background: 'rgb(128,0,32)', color: '#fff' }}
                 contentStyle={{ background: 'rgb(128,0,32)', color: '#fff' }}
                 contentArrowStyle={{ borderRight: '7px solid rgb(128,0,32)' }}
-                
+                icon={<SchoolIcon />}
+
             >
                 <h3 className="vertical-timeline-element-title"> Graduated from uOttawa </h3>
                 <h4 className="vertical-timeline-element-subtitle"> University of Ottawa </h4>
@@ -143,28 +158,31 @@ function Timeline() {
                 </p>
             </VerticalTimelineElement>
 
+            {/* End DND */}
             <VerticalTimelineElement
                 className="vertical-timeline-element--work"
                 date="November 2020"
                 iconStyle={{ background: 'rgb(128,0,32)', color: '#fff' }}
                 contentStyle={{ background: 'rgb(128,0,32)', color: '#fff' }}
                 contentArrowStyle={{ borderRight: '7px solid rgb(128,0,32)' }}
+                icon={<WorkIcon />}
                 
             >
                 <h3 className="vertical-timeline-element-title"> End of job at National Defence </h3>
                 <h4 className="vertical-timeline-element-subtitle"> Nepean, ON </h4>
                 <p>
-                    Implemented a leaderboard that kept track of competitions run by partners in which athletes
-                    would compete. The scores, as well as the event and competition are tracked.
+                    My first job at DND comes to a close.
                 </p>
             </VerticalTimelineElement>
 
+            {/* FPL */}
             <VerticalTimelineElement
                 className="vertical-timeline-element--work"
                 date="Oct - Nov 2020"
                 iconStyle={{ background: '#004E5D', color: '#fff' }}
                 contentStyle={{ background: '#004E5D', color: '#fff' }}
                 contentArrowStyle={{ borderRight: '7px solid  #004E5D' }}
+                icon={<LaptopIcon />}
                 
             >
                 <h3 className="vertical-timeline-element-title"> Fantasy Premier League App </h3>
@@ -175,12 +193,15 @@ function Timeline() {
                 </p>
             </VerticalTimelineElement>
 
+            {/* Portfolio */}
             <VerticalTimelineElement
                 className="vertical-timeline-element--work"
                 date="January 2021"
                 iconStyle={{ background: '#004E5D', color: '#fff' }}
                 contentStyle={{ background: '#004E5D', color: '#fff' }}
                 contentArrowStyle={{ borderRight: '7px solid  #004E5D' }}
+                icon={<LaptopIcon />}
+
                 
             >
                 <h3 className="vertical-timeline-element-title"> My Portfolio </h3>
