@@ -1,12 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 .quote {
-    text-align: center;
-    position: relative;
-    top: 50%;
+    /* width: max-content; */
+    /* position: relative; */
+    /* left: 50%; */
+    /* top: 40%; */
+    border:2px solid #aaaaaa;
+    margin: 0;
 }
 
 .quote-box {
-    /* vertical | horizontal */
     height: 300px;
-    margin: 0 auto;
     border:2px solid #f00;
+    display: flex;
+    flex-wrap: wrap;
+
+    /* centers text in div */
+    text-align: center;
+    /* centers div in div horizontal */
+    justify-content: center;
+    /* centers div in div vertical */
+    align-items: center;
 }
