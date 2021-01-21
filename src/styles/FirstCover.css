@@ -2,10 +2,108 @@
     max-width: 100%;
 }
 
-.welcome {
-    position: absolute;
-    top: 20px;
-    left: 40px;
-    color: white;
-    font-size: 2vmin;
-}
+/* bigger screen */
+@media screen and (min-width: 601px) {
+    .welcome {
+        position: absolute;
+        top: 7%;
+        left: 10%;
+
+        color: lightgray;
+        font-size: 5vmin;
+        font-family: Didot;
+        font-style: italic;
+
+        animation: bounceInDown;
+        animation-delay: 1s;
+        animation-duration: 3s;
+    
+    }
+    
+    .welcome_fr {
+        position: absolute;
+        top: 13%;
+        left: 20%;
+        color: lightgray;
+        font-size: 5vmin;
+        font-family: Didot;
+        font-style: italic;
+
+        animation: bounceInDown;
+        animation-delay: 2s;
+        animation-duration: 3s;
+
+        
+    }
+    
+    .welcome_ar {
+        position: absolute;
+        top: 18%;
+        left: 33%;
+        color: lightgray;
+        
+        font-size: 5vmin;
+        font-family: Didot;
+        font-style: italic;
+        font-weight: 10;
+
+        animation: bounceInDown;
+        animation-delay: 3s;
+        animation-duration: 3s;
+    }
+  }
+  
+
+
+/* smaller screen */
+  @media screen and (max-width: 600px) {
+    .welcome {
+        position: absolute;
+        top: 7%;
+        left: 10%;
+
+        color: lightgray;
+        font-size: 4vmin;
+        font-family: Didot;
+        font-style: italic;
+
+        animation: bounceInDown;
+        animation-delay: 1s;
+        animation-duration: 3s;
+    
+    }
+    
+    .welcome_fr {
+        position: absolute;
+        top: 14%;
+        left: 25%;
+        color: lightgray;
+
+        font-size: 4vmin;
+        font-family: Didot;
+        font-style: italic;
+
+        animation: bounceInDown;
+        animation-delay: 2s;
+        animation-duration: 3s;
+
+        
+    }
+    
+    .welcome_ar {
+        position: absolute;
+        top: 22%;
+        left: 40%;
+        color: lightgray;
+        
+        font-size: 4vmin;
+        font-family: Didot;
+        font-style: italic;
+        font-weight: 10;
+
+
+        animation: bounceInDown;
+        animation-delay: 3s;
+        animation-duration: 3s;
+    }
+  }
