@@ -11,5 +11,7 @@
 .background {
   object-fit: cover;
 }
-
-
+/* 
+.navbar {
+  position: sticky;
+} */

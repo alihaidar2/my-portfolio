@@ -23,7 +23,7 @@ class App extends React.Component {
       <Router>
         <div fluid>
           
-          <Navbar bg="dark" variant="dark" expand="lg">
+          <Navbar className="navbar" bg="dark" variant="dark" expand="lg">
             <Navbar.Brand className="navbar-brand" aria-setsize={45}> 
               <img src={logo} alt="logo" width={50} padding={100}/>
               Ali Haidar

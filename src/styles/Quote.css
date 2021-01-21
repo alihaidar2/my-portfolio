@@ -1,3 +1,12 @@
-.div {
+.quote {
     text-align: center;
+    position: relative;
+    top: 50%;
+}
+
+.quote-box {
+    /* vertical | horizontal */
+    height: 300px;
+    margin: 0 auto;
+    border:2px solid #f00;
 }
