@@ -1,16 +1,15 @@
 import React, {/*useState*/} from 'react'
 import { Carousel, /*Container*/ } from 'react-bootstrap';
-import Timeline from '../components/Timeline'
 
 import FirstCover from '../components/FirstCover';
 import SecondCover from '../components/SecondCover.js';
+import EducationExperience from '../components/EducationExperience'
 
 import '/Users/alihaidar/Projects/my-portfolio/src/styles/Homepage.css'
 
 function Homepage() {
     return (
-        <div>
-            
+        <div> 
             <Carousel>
                 <Carousel.Item>
                     <FirstCover />
@@ -20,7 +19,7 @@ function Homepage() {
                 </Carousel.Item>
             </Carousel>
             
-            <Timeline />
+            <EducationExperience />
 
         </div>
         

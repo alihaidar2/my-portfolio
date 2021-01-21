@@ -1,11 +1,17 @@
 import React from 'react'
 import ali from "../images/ali.jpg"
 
-import '../styles/Cover.css'
+import '../styles/FirstCover.css'
 
-function Cover() {
+function FirstCover() {
     return (
-        <img src={ali} alt="me"/>
+        <div className="cover1">
+            <img src={ali} alt="me"/>
+            <p className="welcome"> 
+                Welcome <br />
+                Bienvenue <br />
+                مرحبا </p>
+        </div>
     );
 }
-export default Cover
+export default FirstCover

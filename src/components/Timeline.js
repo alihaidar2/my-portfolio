@@ -5,7 +5,6 @@ import WorkIcon from '@material-ui/icons/Work';
 import PersonOutlineIcon from '@material-ui/icons/PersonOutline';
 import SchoolIcon from '@material-ui/icons/School';
 import LaptopIcon from '@material-ui/icons/Laptop';
-import logo from "/Users/alihaidar/Projects/my-portfolio/src/logo.svg"
 
 import 'react-vertical-timeline-component/style.min.css';
 import '/Users/alihaidar/Projects/my-portfolio/src/styles/Timeline.css'
@@ -19,7 +18,7 @@ function Timeline() {
             {/* uOttawa */}
             <VerticalTimelineElement
                 className="vertical-timeline-element--work"
-                contentStyle={{ background: 'rgb(128,0,32)', color: '#fff' }}
+                contentStyle={{ background: 'rgba(128,0,32)', color: '#fff' }}
                 contentArrowStyle={{ borderRight: '7px solid  rgb(128,0,32)' }}
                 date="September 2015"
                 iconStyle={{ background: 'rgb(128,0,32)', color: '#fff' }}

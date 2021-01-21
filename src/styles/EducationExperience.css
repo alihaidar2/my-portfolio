@@ -1,0 +1,27 @@
+.title {
+    font-family: 'Trebuchet MS', sans-serif;
+    font-variant: small-caps;
+    font-weight: bolder;
+
+    margin-bottom: 0;
+
+    text-align: center;
+
+    color: rgba(148, 1, 40,1);
+
+    padding-top: 5%;
+    padding-left: 4%;
+    padding-right: 4%;
+}
+
+
+
+.subtitle {
+    font-family: 'Trebuchet MS', sans-serif;
+    text-align: center;
+    margin-top: 0;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 5%;
+    color: rgb(42, 42, 55);
+}

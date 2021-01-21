@@ -34,8 +34,8 @@ class App extends React.Component {
             </Nav>
           </Navbar.Collapse>
         </Navbar>
-        <Homepage />
         
+        <Homepage />
         
         {/* <Footer /> */}
         

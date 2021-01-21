@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  max-width: 100%;
 }
 
 .navbar-brand {
@@ -8,8 +9,6 @@
 
 /* this is what fixed the image stretching problem */
 .background {
-  max-width: 100%;
   object-fit: cover;
 }
-
 

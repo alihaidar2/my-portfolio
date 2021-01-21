@@ -1,0 +1,11 @@
+.cover1 > img {
+    max-width: 100%;
+}
+
+.welcome {
+    position: absolute;
+    top: 20px;
+    left: 40px;
+    color: white;
+    font-size: 2vmin;
+}
