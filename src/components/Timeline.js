@@ -17,7 +17,7 @@ function Timeline() {
             
             {/* uOttawa */}
             <VerticalTimelineElement
-                className="vertical-timeline-element--work"
+                className="vertical-timeline-element--work modified"
                 contentStyle={{ background: 'rgba(128,0,32)', color: '#fff' }}
                 contentArrowStyle={{ borderRight: '7px solid  rgb(128,0,32)' }}
                 date="September 2015"

@@ -3,3 +3,7 @@
     object-fit: contain; /* this is so it doesnt cut the pic when resizing */
 }
 
+.background_grey {
+    background: grey;
+}
+

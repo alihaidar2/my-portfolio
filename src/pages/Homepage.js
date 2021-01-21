@@ -9,7 +9,7 @@ import '/Users/alihaidar/Projects/my-portfolio/src/styles/Homepage.css'
 
 function Homepage() {
     return (
-        <div> 
+        <div className="background_grey"> 
             <Carousel>
                 <Carousel.Item>
                     <FirstCover />

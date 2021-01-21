@@ -1,3 +1,15 @@
-.background {
-    background: grey;
+.vertical-timeline-element-title {
+    font-size: 4vmin;
+}
+
+.vertical-timeline-element-subtitle {
+    font-size: 3vmin;
+}
+
+.vertical-timeline-element-date {
+    font-size: 1vmin;
+}
+
+.vertical-timeline::before {
+    top: auto;
 }
