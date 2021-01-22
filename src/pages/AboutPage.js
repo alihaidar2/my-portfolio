@@ -5,6 +5,7 @@ function AboutPage() {
     return (
         <div className="about-page">
             <Quote />
+            <div> Herro </div>
          </div>
     )
 }
